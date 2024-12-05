@@ -5,6 +5,7 @@ import Navbar from "./components/navbar";
 import { About } from "./components/About/about";
 import { ProjectPage } from "./components/Projects/project";
 import { ContactPage } from "./components/Contact/contact";
+import { Todo } from "./components/todoTask/todo";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/About" element={<About />} />
             <Route path="/Projects" element={<ProjectPage />} />
             <Route path="/Contact" element={<ContactPage />} />
+            <Route path="/Todo" element={<Todo />} />
             {/* <Route path="/calculator" element={<Calculator />} /> */}
           </Routes>
         </div>
